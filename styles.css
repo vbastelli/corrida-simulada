@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+#track {
+    position: relative;
+    width: 90%;
+    height: 350px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+.car {
+    position: absolute;
+    width: 150px; /* Increase the width */
+    height: auto; /* Adjust height automatically */
+    transition: left 0.05s;
+}
+
+#car1 {
+    left: 10px;
+    top: 40%;
+
+}
+
+#car2 {
+    left: 10px;
+    top: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+}
